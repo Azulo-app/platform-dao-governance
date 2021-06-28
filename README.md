@@ -1,3 +1,7 @@
+A functional implementation of the Azulo platform DAO governance can be found at https://snapshot.org/#/azulo-test.eth.
+
+The Rinkeby DAO-module contract address is: 0x4754E9e9293373210373D2Fc29128F0C5Af14790
+
 This is an adaptation for Azulo-app. Refer to https://github.com/gnosis/dao-module/blob/main/docs/setup_guide.md for setup directions.
 
 # DAO Module
