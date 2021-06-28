@@ -1,0 +1,33 @@
+{
+  "name": "Az Test DAO",
+  "network": "1",
+  "symbol": "ETH",
+  "strategies": [
+    {
+      "name": "eth-balance",
+      "params": {
+        "symbol": "ETH"
+      }
+    },
+    {
+      "name": "delegation",
+      "params": {
+        "symbol": "ETH (delegated)",
+        "strategies": [
+          {
+            "name": "eth-balance"
+          }
+        ]
+      }
+    }
+  ],
+  "filters": {
+    "defaultTab": "all",
+    "minScore": 0.01
+  },
+  "plugins": {
+    "daoModule": {
+      "address": "0x4754E9e9293373210373D2Fc29128F0C5Af14790"
+    }
+  }
+}
